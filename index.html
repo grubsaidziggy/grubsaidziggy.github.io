@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
   <head>
     <title>Thing</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
@@ -11,5 +12,8 @@
       <p>Low quality Grub<img src="images/favicon.ico" alt="grub" width="100px"></p><br><br>
       <h2>Can you find the hidden grubs? Click <a href="grub/index.html">here</a> to start.</h2>
     </div>
+    <script>window.addEventListener("load", (event) => {
+  new cursoreffects.ghostCursor();
+});</script>
   </body>
 </html>
