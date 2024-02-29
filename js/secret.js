@@ -6,5 +6,5 @@ if(grubber = true){
   var link = document.createElement("a");
   link.href = "grubber/";
   link.value = "SECRET";
-  document.getElementById("link").appendChild(link);
+  document.body.appendChild(link);
 }
