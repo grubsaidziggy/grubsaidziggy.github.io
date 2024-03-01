@@ -12,7 +12,7 @@ var check_grub = function(key1,key2){
     
 
     //"else" case, dont put any other cases below it
-    case true:
+    default:
       console.log("ACCESS DENIED");
       break;
   }
