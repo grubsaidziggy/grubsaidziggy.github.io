@@ -1,4 +1,5 @@
 var check_grub = function(key1,key2){
+  console.log("possible work");
   switch(key1,key2){
     case "grub",165:
       console.log("ACCESS GRANTED");
