@@ -10,3 +10,4 @@ var check_grub = function(key1,key2){
     document.body.appendChild(link);
   }
 }
+ 
