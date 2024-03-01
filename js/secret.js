@@ -1,5 +1,5 @@
 var check_grub = function(key1,key2){
-  if(key1 == "grub") and (key2 == 165) 
+  if(key1 == "grub" && key2 == 165) 
   {
     console.log("ACCESS GRANTED");
     var link = document.createElement("a");
@@ -13,5 +13,4 @@ var check_grub = function(key1,key2){
   {
     console.log("ACCESS DENIED");
   }
-}
- 
+};
