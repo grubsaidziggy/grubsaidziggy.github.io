@@ -34,7 +34,7 @@
       const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
       if (urlParams.get("yipy")=="yipy"){
-        var yipy = createElement("h1");
+        var yipy = document.createElement("h1");
         var newContent = document.createTextNode("Yipy");
         yipy.appendChild(newContent);
         document.body.appendChild(yipy);
