@@ -31,6 +31,7 @@
       </script>
     </div>
     <script>
+      const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
       if (urlParams.get("yipy")=="yipy"){
         var yipy = createElement("h1");
